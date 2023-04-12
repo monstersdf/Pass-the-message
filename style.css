@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.message{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    min-height: 39vh;
+}
+.message-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 40%;
+    background-color: white;
+    margin-top: 10rem;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(102, 167, 200);
+}
+h1{
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+h2{
+    text-transform: capitalize;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.btn-submit{
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffff;
+    background-color: rgb(102, 167, 200);
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#txt{
+    min-width: 100%;
+    min-height: 34px;
+    margin-bottom: 1rem;
+}
